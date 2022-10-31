@@ -1,0 +1,27 @@
+{
+  "orgName": "Just to reproduce a bug",
+  "edition": "Enterprise",
+  "features": ["EnableSetPasswordInApi", "LiveAgent",  "LightningServiceConsole", "PersonAccounts", "ServiceCloud", "ServiceCloudVoicePartnerTelephony:5", "ServiceUser"],
+  "language": "en_US",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "apexSettings": {
+      "enableCompileOnDeploy": false
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true
+    },
+    "omniChannelSettings": {
+      "enableOmniChannel": true,
+      "enableOmniSkillsRouting": true
+    },
+    "serviceCloudVoiceSettings": {
+      "enableServiceCloudVoice": true
+    }
+  }
+}
